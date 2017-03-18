@@ -1,3 +1,4 @@
+import com.jgabrielfreitas.HelloWithKotlin;
 import com.jgabrielfreitas.HelloWorld;
 
 import javax.ws.rs.ApplicationPath;
@@ -16,7 +17,8 @@ public class RestgramApplication extends Application {
     @Override
     public Set<Class<?>> getClasses() {
         HashSet h = new HashSet<Class<?>>();
-        h.add( HelloWorld.class );
+        h.add(HelloWorld.class);
+        h.add(HelloWithKotlin.class);
         return h;
     }
 }
