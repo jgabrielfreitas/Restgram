@@ -1,4 +1,4 @@
-# Jersey + Java + Kotlin = Awesome REST API
+# Jersey + Kotlin = Awesome REST API
 
 Rest API with Kotlin playground
 
